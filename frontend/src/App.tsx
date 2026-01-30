@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import HeroSection from "./pages/prb_car_rental";
 import Header from "./components/Header";
 import AboutSection from "./pages/AboutSection";
+import ContactPage from "./pages/Contact";
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<HeroSection/>} />
+        <Route path="/contact"element={<ContactPage/>}/>
       </Routes>
     </Router>
   );
