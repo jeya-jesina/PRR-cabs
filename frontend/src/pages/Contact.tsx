@@ -95,23 +95,7 @@ const ContactPage = () => {
         }
       `}</style>
 
-      {/* Header with Navigation */}
-      <header className="gradient-bg text-white">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <h1 className="text-3xl font-bold">Cochin Cabs</h1>
-              <p className="text-sm opacity-90">Kerala's Premier Travel Service</p>
-            </div>
-            <nav className="flex gap-6">
-              <a href="#" className="hover:text-green-200 transition">Home</a>
-              <a href="#" className="hover:text-green-200 transition">Services</a>
-              <a href="#" className="hover:text-green-200 transition">Tours</a>
-              <a href="#" className="font-bold border-b-2 border-white">Contact</a>
-            </nav>
-          </div>
-        </div>
-      </header>
+    
 
       {/* Hero Section */}
       <div className="relative h-[400px] overflow-hidden">
