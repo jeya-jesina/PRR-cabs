@@ -4,6 +4,7 @@ import HeroSection from "./pages/prb_car_rental";
 import Header from "./components/Header";
 import AboutSection from "./pages/AboutSection";
 import ServicesPage from "./pages/services/services-page";
+import ContactPage from "./pages/Contact";
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<HeroSection/>} />
         <Route path="/services" element={<ServicesPage/>} />
+        <Route path="/contact"element={<ContactPage/>}/>
       </Routes>
     </Router>
   );
