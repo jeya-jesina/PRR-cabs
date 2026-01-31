@@ -35,9 +35,13 @@ const Header: React.FC = () => {
 
           {/* CTA Button - Matches your Image Style */}
           <div className="flex items-center">
-            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-red-200 active:scale-95">
+            <Link
+              to="/booknow"
+              className="bg-red-600 hover:bg-red-700 text-white px-8 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-red-200 active:scale-95"
+            >
               Book Now
-            </button>
+            </Link>
+
           </div>
         </div>
       </div>
